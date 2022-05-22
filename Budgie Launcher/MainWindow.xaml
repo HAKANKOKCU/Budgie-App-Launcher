@@ -1,0 +1,15 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Budgie Launcher" Height="150" Width="525" AllowsTransparency="True" WindowStyle="None" Background="#00000000" WindowStartupLocation="CenterScreen" Icon="/Budgie%20Launcher;component/prflrsmi.ico" Topmost="True">
+    <Border Background="#C8FFFFFF" CornerRadius="10">
+        <DockPanel Margin="10">
+            <TextBox Name="searchtb" Margin="2" DockPanel.Dock="Top"></TextBox>
+            <ScrollViewer Margin="2">
+                <StackPanel Name="cont">
+                    <Label Padding="3">Type to search, Press Enter To Execute The Command/Application</Label>
+                </StackPanel>
+            </ScrollViewer>
+        </DockPanel>
+    </Border>
+</Window>

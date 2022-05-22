@@ -1,0 +1,28 @@
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\bin\Debug\Budgie Launcher.exe
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\bin\Debug\Budgie Launcher.pdb
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\bin\Debug\Budgie Launcher.xml
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\obj\x86\Debug\MainWindow.baml
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\obj\x86\Debug\MainWindow.g.vb
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\obj\x86\Debug\Application.g.vb
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\obj\x86\Debug\Budgie Launcher_MarkupCompile.cache
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\obj\x86\Debug\Budgie Launcher.g.resources
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\obj\x86\Debug\Budgie_Launcher.Resources.resources
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\obj\x86\Debug\Budgie Launcher.vbproj.GenerateResource.Cache
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\obj\x86\Debug\Budgie Launcher.exe
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\obj\x86\Debug\Budgie Launcher.xml
+C:\Users\ASUS PC\AppData\Local\Temporary Projects\Budgie Launcher\obj\x86\Debug\Budgie Launcher.pdb
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\bin\Debug\Budgie Launcher.exe
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\bin\Debug\Budgie Launcher.pdb
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\bin\Debug\Budgie Launcher.xml
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\ListIt.baml
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\MainWindow.baml
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\ListIt.g.vb
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\MainWindow.g.vb
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\Application.g.vb
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\Budgie Launcher_MarkupCompile.cache
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\Budgie Launcher.g.resources
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\Budgie Launcher.vbproj.GenerateResource.Cache
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\Budgie Launcher.exe
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\Budgie Launcher.xml
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\Budgie Launcher.pdb
+C:\Users\ASUS PC\documents\visual studio 2010\Projects\Budgie Launcher\Budgie Launcher\obj\x86\Debug\BudgieLauncher.Resources.resources
