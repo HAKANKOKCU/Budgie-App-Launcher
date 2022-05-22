@@ -12,5 +12,5 @@ Search And Launch Apps Via An Menu
 * Change Shortcut Key To Any Key You Want
 
 ![resim](https://user-images.githubusercontent.com/103432992/169681661-82ce55ae-f670-4539-b1f3-9fac7bc5a050.png)
-* Press The Shortcut Key You Picked
-* And Done. 
+* Press The Shortcut Key You Picked (Press ESC To Close)
+* And Done.
