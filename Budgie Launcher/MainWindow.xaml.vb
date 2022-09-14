@@ -14,24 +14,23 @@
         cont.Children.Clear()
         Try
             For Each pf As String In My.Computer.FileSystem.GetDirectories("C:\Program Files")
-                For Each app As String In My.Computer.FileSystem.GetFiles(pf)
-                    Dim appname = app.Replace("C:\Program Files" & "\", "")
-                    Dim inf As New IO.FileInfo(app)
-                    If inf.Extension.ToLower = ".exe" Or inf.Extension.ToLower = ".lnk" Then
-                        If Not appname.Contains("desktop.ini") Then
-                            If appname.ToLower.Contains(searchtb.Text.ToLower) Then
-                                Dim item As New ListIt
-                                Dim listan As New listan(item)
-                                listan.filenametoopen = app
-                                item.name.Content = appname.Replace(".lnk", "").Replace(".exe", "")
-                                cont.Children.Add(item)
-                                If heg < 400 Then
-                                    heg += 40
+                Try
+                    For Each app As String In My.Computer.FileSystem.GetFiles(pf)
+                        Dim appname = app.Replace("C:\Program Files" & "\", "")
+                        Dim inf As New IO.FileInfo(app)
+                        If inf.Extension.ToLower = ".exe" Or inf.Extension.ToLower = ".lnk" Then
+                            If Not appname.Contains("desktop.ini") Then
+                                If appname.ToLower.Contains(searchtb.Text.ToLower) Then
+                                    addicon(appname, app)
+                                    If heg < 400 Then
+                                        heg += 40
+                                    End If
                                 End If
                             End If
                         End If
-                    End If
-                Next
+                    Next
+                Catch
+                End Try
             Next
         Catch ex As Exception
 
@@ -42,11 +41,7 @@
             If inf.Extension.ToLower = ".exe" Or inf.Extension.ToLower = ".lnk" Then
                 If Not appname.Contains("desktop.ini") Then
                     If appname.ToLower.Contains(searchtb.Text.ToLower) Then
-                        Dim item As New ListIt
-                        Dim listan As New listan(item)
-                        listan.filenametoopen = app
-                        item.name.Content = appname.Replace(".lnk", "").Replace(".exe", "")
-                        cont.Children.Add(item)
+                        addicon(appname, app)
                         If heg < 300 Then
                             heg += 40
                         End If
@@ -56,24 +51,23 @@
         Next
         If Not My.Computer.FileSystem.SpecialDirectories.ProgramFiles = "C:\Program Files" Then
             For Each pf As String In My.Computer.FileSystem.GetDirectories(My.Computer.FileSystem.SpecialDirectories.ProgramFiles)
-                For Each app As String In My.Computer.FileSystem.GetFiles(pf)
-                    Dim appname = app.Replace(My.Computer.FileSystem.SpecialDirectories.ProgramFiles & "\", "")
-                    Dim inf As New IO.FileInfo(app)
-                    If inf.Extension.ToLower = ".exe" Or inf.Extension.ToLower = ".lnk" Then
-                        If Not appname.Contains("desktop.ini") Then
-                            If appname.ToLower.Contains(searchtb.Text.ToLower) Then
-                                Dim item As New ListIt
-                                Dim listan As New listan(item)
-                                listan.filenametoopen = app
-                                item.name.Content = appname.Replace(".lnk", "").Replace(".exe", "")
-                                cont.Children.Add(item)
-                                If heg < 300 Then
-                                    heg += 40
+                Try
+                    For Each app As String In My.Computer.FileSystem.GetFiles(pf)
+                        Dim appname = app.Replace(My.Computer.FileSystem.SpecialDirectories.ProgramFiles & "\", "")
+                        Dim inf As New IO.FileInfo(app)
+                        If inf.Extension.ToLower = ".exe" Or inf.Extension.ToLower = ".lnk" Then
+                            If Not appname.Contains("desktop.ini") Then
+                                If appname.ToLower.Contains(searchtb.Text.ToLower) Then
+                                    addicon(appname, app)
+                                    If heg < 300 Then
+                                        heg += 40
+                                    End If
                                 End If
                             End If
                         End If
-                    End If
-                Next
+                    Next
+                Catch
+                End Try
             Next
         End If
         Me.Height = heg
@@ -93,6 +87,15 @@
     Private Sub Window_KeyUp(ByVal sender As System.Object, ByVal e As System.Windows.Input.KeyEventArgs) Handles MyBase.KeyUp
         If e.Key = Key.Escape Then
             End
+        End If
+    End Sub
+
+    Sub addicon(ByVal name As String, ByVal path As String)
+        If cont.Children.Count < 9 Then
+            Dim item As New ListIt
+            Dim listan As New listan(item, path)
+            item.name.Content = name.Replace(".lnk", "").Replace(".exe", "")
+            cont.Children.Add(item)
         End If
     End Sub
 End Class

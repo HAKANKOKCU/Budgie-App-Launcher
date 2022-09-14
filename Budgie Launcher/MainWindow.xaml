@@ -5,11 +5,9 @@
     <Border Background="#C8FFFFFF" CornerRadius="10">
         <DockPanel Margin="10">
             <TextBox Name="searchtb" Margin="2" DockPanel.Dock="Top"></TextBox>
-            <ScrollViewer Margin="2">
-                <StackPanel Name="cont">
-                    <Label Padding="3">Type to search, Press Enter To Execute The Command/Application</Label>
-                </StackPanel>
-            </ScrollViewer>
+            <StackPanel Name="cont" Margin="2">
+                <Label Padding="3">Type to search, Press Enter To Execute The Command/Application</Label>
+            </StackPanel>
         </DockPanel>
     </Border>
 </Window>
